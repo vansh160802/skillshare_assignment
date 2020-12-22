@@ -1,0 +1,12 @@
+{
+    "name": "vanshchinda/skillshare_assignment",
+    "description": "A basic login and sign up app.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Vansh Chinda",
+            "email": "vanshchinda@gmail.com"
+        }
+    ],
+    "require": {}
+}
