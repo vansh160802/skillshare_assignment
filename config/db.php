@@ -1,8 +1,8 @@
 <?php
 
-define("DB_HOST", "127.0.0.1");
-define("DB_NAME", "skillshare_assignment_db");
-define("DB_USER", "root");
-define("DB_PASS", "mysql");
+define("DB_HOST", "db4free.net");
+define("DB_NAME", "skillshare_a");
+define("DB_USER", "vanshchinda@localhost");
+define("DB_PASS", "qwertyopop");
 
 ?>

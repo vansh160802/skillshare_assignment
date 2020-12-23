@@ -1,3 +1,16 @@
+<?php
+    require_once("libraries/password_compatibility_library.php");
+    require_once("config/db.php");
+    require_once("classes/Login.php");
+    $login = new Login();
+    if ($login->isUserLoggedIn() == true) {
+        include("views/logged_in.php");
+    
+    } else {
+        include("views/not_logged_in.php");
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -19,6 +32,8 @@
         </div>
         <button type="submit" name="login" value="Login"></button>
     </form>
+    <a href="./register.php">register</a>
+
 </body>
 
 </html>
